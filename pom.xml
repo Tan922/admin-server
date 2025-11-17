@@ -1,0 +1,30 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.company</groupId>
+  <artifactId>admin-server</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <parent>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-parent</artifactId>
+      <version>3.2.2</version>
+  </parent>
+
+  <dependencies>
+      <dependency>
+          <groupId>de.codecentric</groupId>
+          <artifactId>spring-boot-admin-starter-server</artifactId>
+          <version>3.2.2</version>
+      </dependency>
+  </dependencies>
+
+  <build>
+      <plugins>
+          <plugin>
+              <groupId>org.springframework.boot</groupId>
+              <artifactId>spring-boot-maven-plugin</artifactId>
+          </plugin>
+      </plugins>
+  </build>
+</project>
